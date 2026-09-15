@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 
-DATABASE_URL="mysql+pymysql://root:root@localhost/webhook_engine.db"
+DATABASE_URL="mysql+pymysql://root:root@localhost/webhook_engine"
 
 
 engine=create_engine(
